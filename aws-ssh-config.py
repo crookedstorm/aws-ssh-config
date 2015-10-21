@@ -127,7 +127,6 @@ def main():
 				pass
 
 			print '    IdentityFile ~/.ssh/' + instance.key_name + '.pem'
-			print '    StrictHostKeyChecking no' # just for me, removing this is usually a good choice
 			print
 
 
